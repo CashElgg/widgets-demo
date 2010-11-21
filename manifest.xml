@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest>
+	<field key="name" value="Widgets demo" />
+	<field key="description" value="Demonstrates different ways to use widgets" />
+	<field key="version" value="1.0" />
+	<field key="elgg_version" value="2010111501" />
+	<field key="admin_interface" value="advanced" />
+	<field key="category" value="demo" />
+	<field key="author" value="Cash Costello" />
+	<field key="website" value="http://cashcostello.com/" />
+	<field key="copyright" value="(C) Cash Costello 2010" />
+	<field key="licence" value="GNU Public License version 2" />
+</plugin_manifest>
