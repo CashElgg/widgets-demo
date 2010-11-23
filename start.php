@@ -23,6 +23,7 @@ function widgets_demo_page_handler($page) {
 			$title = "Sidebar demo";
 			$sidebar = elgg_view('widgets-demo/sidebar');
 			$content = elgg_view_title($title);
+			$content .= '<p>Add widgets to your sidebar</p>';
 			$vars = array(
 				'sidebar' => $sidebar,
 				'content' => $content

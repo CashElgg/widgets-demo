@@ -18,6 +18,9 @@ $box .= '</div>';
 
 elgg_pop_context();
 
+echo '<p>Three column layout with another spanning the top. Trying to force columns
+	to start with same height which causes problems with the spanning column.</p>';
+
 $params = array(
 	'box' => $box,
 	'num_columns' => 3

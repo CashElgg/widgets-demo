@@ -47,10 +47,15 @@ $images_dir = elgg_get_site_url() . 'mod/widgets-demo/images/';
 	border-bottom: none;
 	padding: 5px;
 	padding-bottom: 0;
+	cursor: pointer;
+}
+
+#custom_settings_button span:hover {
+	background-color: #dddddd;
 }
 
 #custom_settings {
-	background: #393a3a;
+	border: 1px solid #dedede;
 	padding: 10px;
 	display: none;
 }
