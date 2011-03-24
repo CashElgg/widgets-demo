@@ -10,20 +10,10 @@ echo elgg_view_layout('widgets', $params);
 
 ?>
 
-<div id="custom_settings_button">
+<div id="custom-settings-button" class="elgg-toggler" href="#custom-settings">
 	<span>Customize</span>
 </div>
-<div id="custom_settings">
+<div id="custom-settings">
 	<?php echo elgg_view('widgets-demo/custom_add_panel'); ?>
 	<div class="clearfloat"></div>
 </div>
-
-<script type="text/javascript">
-
-	$(document).ready(function() {
-		$('#custom_settings_button').click(function() {
-			$('#custom_settings').slideToggle();
-		});
-	});
-
-</script>

@@ -2,47 +2,41 @@
 $images_dir = elgg_get_site_url() . 'mod/widgets-demo/images/';
 ?>
 
-#elgg_header_contents h1 {
+.elgg-page-header h1 {
 	width: 400px;
 }
 
-#demo_menu {
-	position: relative;
+#demo-menu {
+	position: absolute;
 	left: 400px;
-	top: -40px;
+	top: 40px;
 	z-index: 1000;
 }
 
-#demo_menu li {
+#demo-menu li {
 	float: left;
 	list-style: none;
 	margin-right: 15px;
 }
 
-#demo_menu li a {
+#demo-menu li a {
 	color: white;
 	font-size: 140%;
 }
 
-#elgg_sidebar h3 {
-	border: none;
-	padding: 0 45px 0 20px;
-	margin: 0;
-}
-
-#elgg_sidebar .widgets_add_panel li {
+.elgg-sidebar .elgg-widgets-add-panel li {
 	width: 150px;
 }
 
-#widget_col_0 {
+#elgg-widget-col-0 {
 	width: 100%;
 }
 
-#custom_settings_button {
+#custom-settings-button {
 	border-bottom: 1px solid #dedede;
 }
 
-#custom_settings_button span {
+#custom-settings-button span {
 	border: 1px solid #dedede;
 	border-bottom: none;
 	padding: 5px;
@@ -50,17 +44,17 @@ $images_dir = elgg_get_site_url() . 'mod/widgets-demo/images/';
 	cursor: pointer;
 }
 
-#custom_settings_button span:hover {
+#custom-settings-button span:hover {
 	background-color: #dddddd;
 }
 
-#custom_settings {
+#custom-settings {
 	border: 1px solid #dedede;
 	padding: 10px;
 	display: none;
 }
 
-#custom_settings li {
+#custom-settings li {
 	width: 200px;
 	list-style: none;
 	float: left;
@@ -68,16 +62,16 @@ $images_dir = elgg_get_site_url() . 'mod/widgets-demo/images/';
 	background: #fafafa;
 }
 
-#custom_settings label {
+#custom-settings label {
 	line-height: 20px;
 }
 
-#custom_settings p {
+#custom-settings p {
 	clear: both;
 	padding-top: 20px;
 }
 
-#custom_settings .submit_button {
+#custom-settings .elgg-submit-button {
 	margin: 10px auto;
 	display: block;
 }

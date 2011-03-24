@@ -17,6 +17,7 @@ function widgets_demo_init() {
 function widgets_demo_page_handler($page) {
 
 	elgg_set_context($page[0]);
+	elgg_set_page_owner_guid(elgg_get_logged_in_user_guid());
 
 	switch ($page[0]) {
 		case 'sidebar':
@@ -28,7 +29,7 @@ function widgets_demo_page_handler($page) {
 				'sidebar' => $sidebar,
 				'content' => $content
 			);
-			$body = elgg_view_layout("one_column_with_sidebar", $vars);
+			$body = elgg_view_layout("one_sidebar", $vars);
 			break;
 		case 'span':
 			$title = "Spanning Columns";
